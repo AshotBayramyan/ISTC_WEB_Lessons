@@ -7,3 +7,6 @@ table, th, td{
 
     background-color: aquamarine;
 }
+th{
+    text-align: right;
+}
