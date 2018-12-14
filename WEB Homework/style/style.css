@@ -8,6 +8,7 @@ h1 {
     
 }
 .wrapper {
+    background-color: beige;
     border: 2px solid;
     border-color: brown;
     border-radius: 15px;
