@@ -1,0 +1,17 @@
+h1 {
+    color: brown;
+    text-align: center;
+}
+.wrapper {
+    color: brown;
+    text-align: center;
+    
+}
+.wrapper {
+    border: 2px solid;
+    border-color: brown;
+    border-radius: 15px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
