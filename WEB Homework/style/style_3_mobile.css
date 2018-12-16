@@ -1,0 +1,110 @@
+.wrapper{
+    background-color: #184767;
+    border: 1px solid black;
+    width: 30%;
+    height: 500px;
+    padding: 15px;
+}
+.str{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.str1{
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    float: left; 
+}
+.ver{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #184767;
+    width: 100%;
+    height: 52px;
+    
+}
+.ver1{
+    background-color: #184767;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 65px;
+}
+.obama{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    height: 30px;
+    margin: 10px;
+}
+.nerq{
+    width: 100%;
+    height: 437px;
+}
+.areyouin{
+    color: #184767;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.inputemail{  
+    width: 250px;
+    padding: 5px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.zipimin{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inputzip{
+    width: 80px;
+    padding: 5px 15px;
+    text-align: left;
+    font-size: 15px;
+}
+.imin{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #a81f23;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #fff;
+}
+.obamaerkar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    margin-bottom: 35px;
+}
+.txt{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.obamabiden{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+.obamalogo{
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
