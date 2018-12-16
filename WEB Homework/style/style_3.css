@@ -109,7 +109,11 @@
     padding: 15px;
 }
 .div1{
-    margin-left: 200px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 .a1, .a2, .a3{
     margin-left: 5px;
