@@ -55,14 +55,14 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-.inputemail{
-    
+.inputemail{  
     width: 250px;
-    padding: 10px 15px;
+    padding: 5px 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
+    font-size: 15px;
 }
 
 .zipimin{
@@ -72,7 +72,7 @@
 }
 .inputzip{
     width: 80px;
-    height: 25px;
+    padding: 5px 15px;
     text-align: left;
     font-size: 15px;
 }
@@ -80,7 +80,7 @@
     width: 80px;
     height: 30px;
     border-radius: 5px;
-    background-color: #98191e;
+    background-color: #a81f23;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     color: #fff;
@@ -103,4 +103,36 @@
     margin-left: auto;
     margin-right: auto;
     height: 50px;
+}
+.obamalogo{
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.div1{
+    
+    margin-left: 200px;
+  
+
+}
+.a1, .a2, .a3{
+    padding: 5px 15px;
+}
+.a3{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #a81f23;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #fff;
+}
+.obamaerkarmec{
+    height: 245px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
