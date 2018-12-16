@@ -118,7 +118,14 @@
 
 }
 .a1, .a2, .a3{
+    margin-left: 5px;
     padding: 5px 15px;
+}
+.a1{
+    width: 170px;
+}
+.a2{
+    width: 50px;
 }
 .a3{
     width: 80px;
