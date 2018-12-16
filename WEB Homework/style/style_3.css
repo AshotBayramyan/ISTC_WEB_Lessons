@@ -10,7 +10,7 @@
     border: 2px solid #fff;
     border-radius: 5px;
     width: 30%;
-    height: 97%;
+    height: 98%;
     float: left;
 }
 .str1{
@@ -28,7 +28,8 @@
     border-top-right-radius: 5px;
     background-color: #184767;
     width: 100%;
-    height: 50px;
+    height: 52px;
+    
 }
 .ver1{
     background-color: #184767;
@@ -36,4 +37,70 @@
     border-top-right-radius: 5px;
     width: 100%;
     height: 65px;
+    
+}
+.obama{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    height: 30px;
+    margin: 10px;
+}
+.nerq{
+    width: 100%;
+    height: 437px;
+}
+.areyouin{
+    color: #184767;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.inputemail{
+    
+    width: 250px;
+    padding: 10px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.zipimin{
+    margin-left: 90px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inputzip{
+    width: 80px;
+    height: 25px;
+    text-align: left;
+    font-size: 15px;
+}
+.imin{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #98191e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #fff;
+}
+.obamaerkar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    margin-bottom: 35px;
+}
+.txt{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 35px;
+   
+}
+.obamabiden{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
 }
