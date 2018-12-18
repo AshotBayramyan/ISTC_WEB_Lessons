@@ -1,23 +1,23 @@
-html{
+html, body, .wrapper{
+    width: 100%;
     height: 100%;
 }
 body{
-    width: 100%;
-    height: 100%;
     margin: 0;
 }
-.wrapper{
-    width: 100%;
-    height: 100%;
-}
-.div1{
+.wrapper> div:first-child{
     width: 100%;
     height: 50%;
-    background-color: rgb(159, 209, 192)
+    background-color: antiquewhite;
     
 }
-.div2{
+.wrapper> div:last-child{
     width: 100%;
     height: 50%;
-    background-color: rgb(212, 195, 184)
+    background-color: aquamarine;
+    
 }
+
+
+    
+
