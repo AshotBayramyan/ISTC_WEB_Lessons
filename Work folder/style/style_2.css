@@ -10,17 +10,46 @@ body{
     box-sizing: border-box;
 }
 .wrapper> div:first-child{
+    background: #c41230; 
     width: 100%;
     height: 50%;
-    background: #c41230;  
+     
 }
+
 .wrapper> div:last-child{
+    background: #184767;
     width: 100%;
     height: 50%;
-    background: #184767;
+    
 }
-
-
+.red_container>div:first-child{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin-right: 1%;
+    background: #fff;
+}
+.red_container>div:last-child{
+    width: 68%;
+    height: 100%;
+    display: inline-block;
+    background: #fff;
+    
+}
+.blue_container>div:first-child{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    margin-right: 1%;
+    background: #fff;
+}
+.blue_container>div:last-child{
+    width: 68%;
+    height: 100%;
+    display: inline-block;
+    background: #fff;
+    
+}
 
     
 
