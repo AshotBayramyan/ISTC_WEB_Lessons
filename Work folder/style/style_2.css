@@ -25,7 +25,7 @@ body{
 .red_container>div:first-child{
     width: 30%;
     height: 100%;
-    display: inline-block;
+    float: left;
     margin-right: 1%;
     background: #fff;
 }
@@ -39,17 +39,32 @@ body{
 .blue_container>div:first-child{
     width: 30%;
     height: 100%;
-    display: inline-block;
+    float: left;
     margin-right: 1%;
     background: #fff;
 }
 .blue_container>div:last-child{
     width: 68%;
     height: 100%;
-    display: inline-block;
+    float: left;
     background: #fff;
     
 }
-
+.right_section>div:first-child{
+    background: #fff;
+    width: 100%;
+    height: 25%;
+    box-sizing: border-box;
+    padding-top: 3%;
+}
+.logo{
+    width: 10%;
+    height: 44px;
+    background-image: url(../../images/Mitt_Romney_logo.svg.png);
+    background-size: cover;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    
+}
     
 
