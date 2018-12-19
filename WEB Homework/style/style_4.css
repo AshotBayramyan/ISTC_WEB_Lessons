@@ -1,0 +1,27 @@
+html, body, .wrapper{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0%;
+}
+.wrapper>div:first-child{
+    width: 100%;
+    height: 10%;
+}
+.wrapper>div:first-child>div:first-child{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background: yellow
+}
+.wrapper>div:first-child>div:last-child{
+    float: left;
+    width: 70%;
+    height: 100%;
+    background: blue
+}
+.wrapper>div:last-child{
+    width: 100%;
+    height: 90%;
+}
