@@ -93,6 +93,8 @@ p{
     font-size: 30px;
 }
 .button{
+    height: 40px;
+    width: 120px;
     background-color: blueviolet;
     color: aqua;
 }
