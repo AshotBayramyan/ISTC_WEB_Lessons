@@ -23,35 +23,40 @@ body{
     height: 50px;
     width: 50px;
     border-radius: 100%;
-    
 }
 .wrapper>div:first-child>div:first-child>div:last-child{
     float: left;
     margin-left: 1%;
     margin-top: 3%;
     font-size: 40px;
-    color: rgb(77, 77, 77);
+    color: rgb(77, 77, 77); 
+}
+.wrapper>div:first-child>div:last-child{
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
-  }
+    margin-left: 35%;
+    list-style-type: none;  
+}
 li {
     float: left;
-  }
+}
 li a {
+    color: rgb(0, 0, 0);
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 li a:hover:not(.active) {
-    background-color: #111;
-  }
-
+    color: rgb(180, 5, 28);
+}
+.home{
+    color: rgb(26, 185, 248);
+}
+.home:hover:not(.active){
+    color: rgb(180, 5, 28);
+}
 .newyork{
     height: 60px;
 }
@@ -86,4 +91,8 @@ p{
 }
 .txt3{
     font-size: 30px;
+}
+.button{
+    background-color: blueviolet;
+    color: aqua;
 }
