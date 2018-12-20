@@ -93,8 +93,13 @@ p{
     font-size: 30px;
 }
 .button{
+    margin-top: 15px;
+    text-align: center;
+}
+.button>button{
     height: 40px;
-    width: 120px;
-    background-color: blueviolet;
-    color: aqua;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(26, 185, 248);
+    color: rgb(255, 255, 255);
 }
