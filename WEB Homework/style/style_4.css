@@ -48,7 +48,16 @@ body{
     
 }
 .wrapper>div:last-child>:first-child{
+    padding-top: 10%;
     text-align: center;
     color: #fff;
-    
+
+}
+p{
+    font-size: 40px;
+    font-family: Bradley Hand, cursive;
+}
+h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
 }
