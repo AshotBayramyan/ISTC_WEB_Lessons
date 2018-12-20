@@ -32,6 +32,17 @@ body{
     font-size: 40px;
     color: rgb(77, 77, 77);
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+
+
+  
 .newyork{
     height: 60px;
 }
