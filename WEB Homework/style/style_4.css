@@ -43,7 +43,7 @@ nav{
 
 }
 .vertical-align{
-    
+
 }
 
 .wrapper>div:first-child>div:last-child{
@@ -94,18 +94,19 @@ margin-left: 5px;
     position: relative;
     transform: translateY(-50%);
 }
-p{
-    font-size: 40px;
+
+.txt1{
     font-family: Bradley Hand, cursive;
-    margin: 0%
+    font-size: 2vw;
 }
 
 .txt2{
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 .txt3{
-    font-size: 30px;
+    font-family: Bradley Hand, cursive;
+    font-size: 2vw;
 }
 .button{
     margin-top: 15px;
@@ -131,5 +132,8 @@ p{
    }
    .mobile-menu-icon{
        display:block;
+   }
+   .button{
+       display:none;
    }
   }
