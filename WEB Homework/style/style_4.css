@@ -45,32 +45,7 @@ nav{
 .vertical-align{
     
 }
-/* .wrapper>div:first-child{
-    width: 100%;
-    height: 10%;
-} */
-/* .wrapper>div:first-child>div:first-child{
-    float: left;
-    width: 30%;
-    height: 100%;
-}
-.wrapper>div:first-child>div:first-child>div:first-child{
-    float: left;
-    background-image: url("../images/head.png");
-    margin-left: 25%;
-    margin-top: 7%;
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-} */
-/* .wrapper>div:first-child>div:first-child>div:last-child{
-    float: left;
-    margin-left: 1%;
-    margin-top: 7%;
-    font-size: 40px;
-    color: rgb(77, 77, 77); 
-} */
+
 .wrapper>div:first-child>div:last-child{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -100,15 +75,11 @@ li a:hover:not(.active) {
 .newyork{
     height: 60px;
 }
-/* .wrapper>div:first-child>div:last-child{
-    float: left;
-    width: 70%;
-    height: 100%;
-} */
+
 .wrapper>div:last-child{
     width: 100%;
     height: 90%;
-    background-image: url(../images/newyork.jpg);
+    background-image: url(../../images/newyork.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.9;
@@ -130,7 +101,7 @@ p{
 }
 
 .txt2{
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 .txt3{
