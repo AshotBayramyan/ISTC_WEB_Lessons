@@ -2,3 +2,12 @@ fieldset{
     height: 220px;
     width: 180px;
 }
+.aaa{
+    margin: 0 auto;
+    display: block;
+    border: none;
+    
+    background: lightblue;
+    width: 80%;
+    
+}
