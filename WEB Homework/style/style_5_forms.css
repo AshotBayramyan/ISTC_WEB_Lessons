@@ -4,18 +4,21 @@ html, body{
     margin: 0;
 }
 .wrapper{
+    color: aliceblue;
     width: 70%;
     height: 100%;
-    background-color: yellowgreen;
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
     margin: auto;
 }
 .form{
-    background-color: rgb(102, 100, 100);
+    background-image: none;
+    background-size: cover;
     margin: auto;
     width: 60%;
     height: 60%;
-    border: 2px solid black;
-    text-shadow: 10px blue;
+    border: 2px solid rgb(0, 217, 255);
+    border-radius: 5px;
     
 }
 .left{
