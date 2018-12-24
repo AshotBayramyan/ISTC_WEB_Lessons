@@ -10,5 +10,9 @@ html, body{
     margin: auto;
 }
 .form{
+    width: 70%;
+    height: 50%;
+    border: 2px solid black;
 
+    
 }
