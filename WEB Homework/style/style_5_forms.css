@@ -10,9 +10,37 @@ html, body{
     margin: auto;
 }
 .form{
-    width: 70%;
-    height: 50%;
+    background-color: rgb(102, 100, 100);
+    margin: auto;
+    width: 60%;
+    height: 60%;
     border: 2px solid black;
-
+    text-shadow: 10px blue;
     
+}
+.left{
+    width: 50%;
+    height: 70%;
+    float: left;
+}
+.right{
+    width: 50%;
+    height: 70%;
+    display: inline-block;
+    
+}
+input{
+    width: 90%;
+    height: 10%;
+    margin: 5% auto;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(68, 67, 67);
+    
+}
+input::placeholder{
+    padding: 20px;
+    color: aliceblue;
+    margin-left: 20px;
 }
