@@ -5,6 +5,7 @@ html, body{
 }
 .wrapper{
     color: aliceblue;
+<<<<<<< HEAD
     width: 70%;
     height: 100%;
     background-image: url(../../images/background.jpg);
@@ -14,6 +15,16 @@ html, body{
 .form{
     background-image: none;
     background-size: cover;
+=======
+    padding-top: 10%;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(57, 58, 54);
+    margin: auto;
+}
+.form{
+    background-color: rgb(107, 104, 104);
+>>>>>>> c3b4ad70f928675b884c254d5a410a2663d6514e
     margin: auto;
     width: 60%;
     height: 60%;

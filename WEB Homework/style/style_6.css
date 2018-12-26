@@ -1,0 +1,18 @@
+html{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 20%;
+    background-color: #333333;
+}
+.famo_img{
+    display: flex;
+    align-items: flex-start;
+    height: 20px;
+    width: 100%;
+    background-color: blue;
+}
