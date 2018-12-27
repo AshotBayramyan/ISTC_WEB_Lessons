@@ -1,17 +1,24 @@
 html, body{
     height: 100%;
-    width: 80 %;
+    width: 80%;
     margin: auto;
 }
 .header{
     display: flex;
-    height: 200px;
+    height: 10%;
     background-color: #333333;
 }
-.famo_img{
-    height: 50px;
-    width: 50px;
+.famo{
     display: flex;
-   
+    width: 60px;   
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li a{
+    color: rgb(255, 255, 255);
     
 }
