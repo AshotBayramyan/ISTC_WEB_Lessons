@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+    </head>
+    <link rel='stylesheet' href='example1.css'>
+    <body>
+        <form action="example1.php" method="post">
+            <fieldset>
+            <legend>Registration</legend>
+                <label for="username">Username: </label>
+                <input type="text" name="user" id="username" placeholder="your name here" required autofocus>
+                <label>Date: <br>
+                    <input type="date" name="date">
+                </label>
+                <label>Month:<br>
+                    <input type="month" name="month">
+                </label>
+                <label>Week:<br>
+                    <input type="week" name="week">
+                </label>
+                <label>Datetime:<br>
+                    <input type="datetime" name="datetime">
+                </label>
+                <label>Time:<br>
+                    <input type="time" name="time">
+                </label>
+                <label>Email:<br>
+                    <input type="email" name="email" readonly> <!--disabled isn't send to server-->
+                </label>
+                <label>url:<br>
+                    <input type="url" name="website">
+                </label>
+                <label>Number:<br>
+                    <input type="number" name="number1" autocomplete="off" min="1" max="5">
+                    <input type="number" name="points" step="3">
+                </label>
+                <label>Tel:<br>
+                    <input type="tel" name="phone" maxlength="9" pattern="\d [0-9]">
+                </label>
+                <label>Color:
+                    <input type="color" name="color">
+                </label>
+                <label>Range:
+                    <input type="range" name="range">
+                </label>
+                <label>Search:
+                    <input type="search" name="search">
+                </label>
+                <label>Few words about you:<br> 
+                    <textarea name="comment" disabled>your text here</textarea>
+                </label>
+                <p>Your knowledge level:</p>
+                <label>
+                    <input type="radio" name="knowledge" value="beginner" checked> beginner
+                </label>
+                <label>
+                    <input type="radio" name="knowledge" value="medium"> medium
+                </label>
+                <label>
+                    <input type="radio" name="knowledge" value="advanced"> advanced
+                </label>
+                <p>Choose courses:</p>
+                <label>
+                    <input type="checkbox" name="html" value="html" checked> html
+                </label>
+                <label>
+                    <input type="checkbox" name="css" value="css" checked> css
+                </label>
+                <label>
+                    <input type="checkbox" name="javascript" value="javascript" checked> javascript
+                </label>
+                <label>Gender:<br>
+                    <select name="gender"> <!--multiple-->
+                        <option value="male" selected>male</option>
+                        <option value="female">female</option>
+                    </select>
+                </label>
+                <input type="hidden" name="code" value="abc-123">
+                <label>
+                <p>Upload you image:</p>
+                <input type="file" name="file" accept="image/*">
+                </label>
+                <input type='reset' value='reset'>
+                <button type="submit" formtarget="_blank">Submit to a new window</button>
+                <button name="submit" formaction="">
+                    <strong>Send Us</strong> a Message
+                </button>
+                <input type="submit" formenctype="multipart/form-data" formnovalidate="formnovalidate" value="Submit without validation">
+            </fieldset>
+        </form>
+    </body>
+</html>

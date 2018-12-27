@@ -5,6 +5,17 @@ html, body{
 }
 .wrapper{
     color: aliceblue;
+<<<<<<< HEAD
+    width: 70%;
+    height: 100%;
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.form{
+    background-image: none;
+    background-size: cover;
+=======
     padding-top: 10%;
     width: 70%;
     height: 100%;
@@ -13,12 +24,19 @@ html, body{
 }
 .form{
     background-color: rgb(107, 104, 104);
+>>>>>>> c3b4ad70f928675b884c254d5a410a2663d6514e
     margin: auto;
     width: 60%;
     height: 60%;
+<<<<<<< HEAD
     border: 3px solid rgb(78, 174, 196);
     border-radius: 10px;
     box-shadow: 0 0 10px 5px #3F98AC, inset 0 0 10px 5px #3F98AC;
+=======
+    border: 2px solid rgb(0, 217, 255);
+    border-radius: 5px;
+    
+>>>>>>> 321688c99ce0526da70d9b2db48f363e039fcdb0
 }
 .left{
     width: 50%;
