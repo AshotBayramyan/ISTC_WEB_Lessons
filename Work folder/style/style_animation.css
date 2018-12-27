@@ -1,0 +1,93 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: translate(50px, 100px);
+} */
+/* div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: rotate(20deg);
+} */
+/* div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: scale(5.3);
+} */
+/* div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: skewX(20deg);
+} */
+/* div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: matrix(scaleX(5),rotate(20deg));
+} */
+
+
+/* 3D */
+
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    transition: transform 1s, width 1s, height 1s;
+} 
+div:hover{
+    transform: rotateX(180deg);
+    width: 1000px;
+    height: 1000px;
+
+} */
+
+div{
+    width: 2000px;
+    height: 1000px  ;
+    background: red;
+    animation-name: ggg;
+    animation-duration: 4s;
+    animation-iteration-count:  infinite
+}
+@keyframes ggg{
+    0%{
+        background-color: red;
+    }
+    10%{
+        background-color: aquamarine;
+    }
+    20%{
+        background-color: orangered;
+    }
+    30%{
+        background-color: palegreen;
+    }
+    40%{
+        background-color: lawngreen;
+    }
+    50%{
+        background-color: blue;
+    }
+    60%{
+        background-color: aquamarine;
+    }
+    70%{
+        background-color: orangered;
+    }
+    80%{
+        background-color: palegreen;
+    }
+    90%{
+        background-color: lawngreen;
+    }
+    
+    100%{
+        background-color: orange;
+    }
+}
