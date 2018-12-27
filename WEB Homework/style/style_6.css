@@ -1,15 +1,17 @@
-html{
-    display: flex;
+html, body{
     height: 100%;
     width: 100%;
+    margin: auto;
 }
 .header{
-    margin: 0;
     display: flex;
-    height: 20px;
+    height: 200px;
     background-color: #333333;
 }
 .famo_img{
-    background-image: url(../../images/famowhite.png);
+    height: 50px;
+    width: 50px;
     display: flex;
+   
+    
 }
