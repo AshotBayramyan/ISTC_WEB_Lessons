@@ -16,6 +16,7 @@ ul{
     list-style-type: none;
 }
 li{
+    margin-left: 15px;
     float: left;
 }
 li a{
