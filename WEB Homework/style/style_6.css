@@ -20,9 +20,11 @@ a{
     line-height: 60px;
     color: #fff;
     text-decoration: none;  
-    float: left; 
+    display: flex;
 }
 .famo{
+    width: 100px;
     background-image: url(../../images/famowhite.png);
-    display: flex; 
+    background-size: cover;
+    
 }
