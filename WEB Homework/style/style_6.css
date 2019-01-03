@@ -11,7 +11,7 @@ html, body{
 }
 header{
     display: flex;
-    height: 10%;
+    height: 100px;
     background-color: #333333;
     align-items: center;
     padding-left: 25px;
@@ -28,10 +28,60 @@ a{
     list-style-type: none;
     padding: 20px 20px;
     line-height: 60px;
-    color: #E4E4E4;
+    color: rgb(255, 255, 255);
     text-decoration: none;  
-    font-size: 16px;
+    font-size: 16px; 
 }
 .download{
     background-color: #fa5c4f;
+    border-radius: 7px;
+}
+.red{
+    color: rgb(255, 255, 255);
+    height: 350px;
+    background-color: #fa5c4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+.txt{
+    width: 700px;
+    padding-bottom: 30px;
+}
+h2{
+    padding-bottom: 30px;
+}
+button{
+    border: 1px solid #fff;
+    border-radius: 7px;
+    width: 150px;
+    padding: 15px;
+    margin: 15px;
+    background-color: #fff;
+    font-size: 15px;
+}
+.start{
+    color: #fff;
+    background-color: #fa5c4f;
+}
+.gray{
+    display: flex;
+    height: 70px;
+    background-color: rgb(226, 226, 226);
+}
+.github {
+    font-family: 'icomoon';
+    margin-right: 5px;
+    content: '\e602 ';
+}
+
+
+
+.div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
 }
