@@ -16,21 +16,21 @@ header{
     align-items: center;
     padding-left: 25px;
 }
-nav{
+img{
     display: flex;
+    height: 55px;
+}
+nav{
     padding-left: 20px; 
+    display: flex;
 }
 a{
     list-style-type: none;
     padding: 20px 20px;
     line-height: 60px;
-    color: #fff;
+    color: #E4E4E4;
     text-decoration: none;  
-    display: flex;
-}
-img{
-    display: flex;
-    height: 55px;
+    font-size: 16px;
 }
 .download{
     background-color: #fa5c4f;
