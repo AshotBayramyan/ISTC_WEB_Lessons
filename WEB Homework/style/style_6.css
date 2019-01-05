@@ -72,25 +72,19 @@ button{
     background-color: rgb(226, 226, 226);
 }
 .github {
-    font-family: 'icomoon';
-    margin-right: 5px;
-    content: '\e602 ';
+
 }
-
-
-
 .div4{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     text-align: center;   
 
 }
 .div4>div{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;  
+    flex-direction: column;
+    align-items: center; 
     width: 25%;
     min-width: 250px;
     max-width: 300px;
