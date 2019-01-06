@@ -36,7 +36,7 @@ a{
     background-color: #fa5c4f;
     border-radius: 7px;
 }
-.red, .red2{
+.red{
     color: rgb(255, 255, 255);
     height: 350px;
     background-color: #fa5c4f;
@@ -106,6 +106,10 @@ hr{
     border: none;
     margin: 20px auto;
 }
-.red2{
-    height: 50px;
+h2{
+    padding: 40px;
+    background-color: #fa5c4f;
+    color: #fff;
+    text-align: center; 
+    font-weight: unset;
 }
