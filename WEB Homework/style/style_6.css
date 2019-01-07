@@ -92,7 +92,6 @@ button{
     justify-content: center;
     text-align: center;  
     padding-bottom: 60px; 
-
 }
 .div4>div{
     color: #404040;
@@ -162,7 +161,6 @@ h2{
     color: #f2f2f0;
 }
 footer{
-    
     width: 100%;
     height: 70px;
     position: fixed;
@@ -176,7 +174,6 @@ footer{
 }
 footer>nav{
     padding-left: 100px;
-    
 }
 footer>nav>a{
     font-size: 13px;
