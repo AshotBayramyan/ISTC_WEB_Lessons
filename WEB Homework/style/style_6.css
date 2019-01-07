@@ -44,6 +44,7 @@ a{
 .download>button{
     background-color: #fa5c4f;
     border: 1px solid #fa5c4f;
+    color: #f2f2f0;
 }
 .download>a{
     justify-content: center;
@@ -83,6 +84,7 @@ button{
 }
 .gray{
     display: flex;
+    justify-content: space-between;
     height: 70px;
     background-color: rgb(226, 226, 226);
 }
@@ -92,8 +94,8 @@ button{
 .div4{
     display: flex;
     justify-content: center;
-    
-    text-align: center;   
+    text-align: center;  
+    padding-bottom: 60px; 
 
 }
 .div4>div{
