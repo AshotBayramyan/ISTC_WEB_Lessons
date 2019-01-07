@@ -19,14 +19,18 @@ header{
     background-color: #333333;
     align-items: center;
     padding-left: 25px;
+    justify-content: space-between;
     
 }
+.logonav{
+    display: flex;
+}
 img{
+    margin: 20px 30px 20px 0px;
     display: flex;
     height: 55px;
 }
 nav{
-    padding-left: 20px; 
     display: flex;
 }
 a{
@@ -37,9 +41,14 @@ a{
     text-decoration: none;  
     font-size: 16px; 
 }
-.download{
+.download>button{
     background-color: #fa5c4f;
-    border-radius: 7px;
+    border: 1px solid #fa5c4f;
+}
+.download>a{
+    justify-content: center;
+    padding: 0;
+    align-items: center;
 }
 .red{
     margin-top: 100px;
@@ -155,15 +164,43 @@ h2{
     color: #f2f2f0;
 }
 footer{
-    height: 70px;
+    
     width: 100%;
+    height: 70px;
     position: fixed;
     bottom: 0;
     background-color: #333333;
     display: flex;
     align-items: center;
     color: #f2f2f0;
+    font-size: 13px;
+    justify-content: space-between;
 }
 footer>nav{
     padding-left: 100px;
+    
+}
+footer>nav>a{
+    font-size: 13px;
+}
+.inp{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.email{
+    border: 1px solid transparent;
+    border-radius: 0;
+    width: 200px;
+    padding: 6px;
+    font-size: 12px; 
+}
+.submit{
+    border: 1px solid transparent;
+    border-radius: 0;
+    width: 100px;
+    background-color: #fa5c4f;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px;
 }
