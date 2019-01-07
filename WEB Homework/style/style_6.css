@@ -12,11 +12,14 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    position: fixed;
+    top: 0;
     display: flex;
     width: 100%;
     background-color: #333333;
     align-items: center;
     padding-left: 25px;
+    
 }
 img{
     display: flex;
@@ -39,6 +42,7 @@ a{
     border-radius: 7px;
 }
 .red{
+    margin-top: 100px;
     color: rgb(255, 255, 255);
     height: 350px;
     background-color: #fa5c4f;
@@ -89,7 +93,7 @@ button{
     flex-direction: column;
     align-items: center; 
     width: 25%;
-    min-width: 250px;
+    min-width: 150px;
     max-width: 300px;
     margin: 20px;
     padding: 10px;
@@ -129,8 +133,37 @@ h2{
 .white>div{
     font-family: 'AvenirNextLTW02-Regular', 'sans-serif';
     color: #404040;
-    overflow-y: scroll;
     display: flex;
     flex-direction: column;
-    padding: 90px;
+    padding: 100px;
+}
+.lastdiv{
+    display: flex;
+    flex-direction: column;
+    background-color: #404040;
+    align-items: center;
+    padding: 40px 40px 10px 40px;
+    padding-bottom: 85px;
+}
+.lastdiv>h3{
+    color: #f2f2f0;
+    padding-bottom: 15px;
+}
+.lastdiv>div>:first-child{
+    background-color: #fa5c4f;
+    border: 1px solid #fa5c4f;
+    color: #f2f2f0;
+}
+footer{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    color: #f2f2f0;
+}
+footer>nav{
+    padding-left: 100px;
 }
