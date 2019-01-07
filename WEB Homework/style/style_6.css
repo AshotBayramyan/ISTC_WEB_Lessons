@@ -20,7 +20,6 @@ header{
     align-items: center;
     padding-left: 25px;
     justify-content: space-between;
-    
 }
 .logonav{
     display: flex;
@@ -87,9 +86,6 @@ button{
     justify-content: space-between;
     height: 70px;
     background-color: rgb(226, 226, 226);
-}
-.github {
-
 }
 .div4{
     display: flex;
