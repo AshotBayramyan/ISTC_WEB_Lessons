@@ -4,8 +4,10 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    -webkit-font-smoothing: antialiased;
 }
 html, body{
+    background-color: #f2f2f0;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -82,6 +84,7 @@ button{
 
 }
 .div4>div{
+    color: #404040;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -112,4 +115,22 @@ h2{
     color: #fff;
     text-align: center; 
     font-weight: unset;
+}
+.white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    padding: 40px;
+}
+.white>img{
+    height: 35em;
+}
+.white>div{
+    font-family: 'AvenirNextLTW02-Regular', 'sans-serif';
+    color: #404040;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
 }
