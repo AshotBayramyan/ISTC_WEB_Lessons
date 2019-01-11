@@ -4,9 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="flex.css">
+    <title>HTML DOM </title>
+
+    <style>
+            .democlass {
+              color: red;
+            }
+            </style>
 </head>
+
 <body>
     
+     <!-- example 1 -->
+
+    <p id="demo"></p>
+
+         <!-- example 2 -->
+    <div class="example">First div element with class="example".</div>
+    <div class="example">Second div element with class="example".</div>
+
+   <!-- example 3 -->
+    <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+          <button onclick="myFunction()">Try it</button>
+
+            <!-- example 4 -->
+          First Name: <input name="fname" type="text" value="Michael"><br>
+          First Name: <input name="fname" type="text" value="Doug">
+          <button onclick="myFunction()">Try it</button>
+          <p id="demo"></p>
+
+            <!-- example 5   createElement(), appendChild Methods-->
+            <button onclick="myFunction()">Try it</button>
+
+              <!-- example 6   removeChild Method-->
+            <button onclick="myFunction()">Try it</button>
+            <button onclick="remove()">remove</button>
+
+              <!-- example 7   replaceChild Method-->
+            <ul id="myList"><li>Coffee</li><li>Tea</li><li>Milk</li></ul>
+            <button onclick="myFunction()">Try it</button>
+
+
+
+             <!-- HTML DOM nodeName Properties--> 
+            <!-- example 8   nodeName Property-->
+            <button onclick="myFunction()">Try it</button>
+            <p id="demo"></p>   
+
+ <!-- example 9   attributes Property-->
+            <button id="myBtn" onclick="myFunction()">Try it</button>
+    
+    
+            <!-- example 10   setAttribute() Method-->
+<h1>Hello World</h1>
+<button onclick="myFunction()">Try it</button>
+         
+    <!-- Optional JavaScript -->
+    <script>
+        //example 0
+        document.write("Hello World!");
+        
+        //example1 
+        // Ays orinaky poxum e  <p> elementi bovandakutyuny(innerHTML) id="demo"
+        document.getElementById("demo").innerHTML = "Hello World!";
+ 
+        //example2
+ function myFunction() {
+  var x = document.getElementsByClassName("example");
+  x[0].innerHTML = "Hello World!";
+}
+
+//example3
+function myFunction() {
+  var x = document.getElementsByTagName("LI");
+  document.getElementById("demo").innerHTML = x[1].innerHTML;
+}
+
+//example4
+function myFunction() {
+  var x = document.getElementsByName("fname")[0].tagName;
+  document.getElementById("demo").innerHTML = x;
+}
+
+//example5
+function myFunction() {
+    var btn = document.createElement("BUTTON");        // Create a <button> element
+    var t = document.createTextNode("CLICK ME");       // Create a text node
+    btn.appendChild(t);                                // Append the text to <button>
+    document.body.appendChild(btn);                    // Append <button> to <body>
+}
+
+//example6
+var btn = document.createElement("BUTTON");
+function myFunction() {
+  document.body.appendChild(btn);
+}
+
+function remove() {
+  document.body.removeChild(btn);
+}
+//example7
+function myFunction() {
+  var textnode = document.createTextNode("Water");
+  var item = document.getElementById("myList").childNodes[0];
+  item.replaceChild(textnode, item.childNodes[0]);
+}
+
+//karogh enq poxel naev henc elementy
+function myFunction() {
+  var textnode = document.createTextNode("Water");
+  var item = document.getElementById("myList").childNodes[0];
+  item.replaceChild(textnode, item.childNodes[0]);
+}
+
+//example8
+function myFunction() {
+  var x = document.getElementById("myP").nodeValue;
+  document.getElementById("demo").innerHTML = x;
+}
+//example9
+function myFunction() {
+  var x = document.getElementById("myBtn").attributes.length;
+  document.getElementById("demo").innerHTML = x;
+}
+
+//example10 setAttribute method is BAD practice
+//syntax  element.setAttribute(attribute, value)
+function myFunction() {
+    //bad practice
+  document.getElementsByTagName("H1")[0].setAttribute("class", "democlass"); 
+  //good practice
+  document.getElementsByTagName("H1")[0].style.backgroundColor = "red";
+}
+    </script>
 </body>
+
 </html>
