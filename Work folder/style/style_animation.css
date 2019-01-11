@@ -33,7 +33,7 @@
 /* 3D */
 
 
-/* div{
+div{
     width: 100px;
     height: 100px;
     background: red;
@@ -45,15 +45,15 @@ div:hover{
     width: 1000px;
     height: 1000px;
 
-} */
+}
 
-div{
+/* div{
     width: 2000px;
     height: 1000px  ;
     background: red;
     animation-name: ggg;
     animation-duration: 4s;
-    animation-iteration-count:  infinite
+    animation-iteration-count:  infinite;
 }
 @keyframes ggg{
     0%{
@@ -90,4 +90,4 @@ div{
     100%{
         background-color: orange;
     }
-}
+} */
