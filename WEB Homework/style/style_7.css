@@ -7,16 +7,17 @@ html, body{
     width: 100%;
     height: 100%;
 }
-div{
+#ball{
     width: 100px;
     height: 100px;
     background: red;
     border-radius: 50%;
     margin: 0;
 }
-div:hover{ 
+#ball:hover{ 
     position: relative;
     animation-name: name;
+    animation-fill-mode: forwards;
     animation-duration: 2s;
 }
 @keyframes name{
