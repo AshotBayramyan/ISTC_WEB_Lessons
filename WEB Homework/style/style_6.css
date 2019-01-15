@@ -221,19 +221,32 @@ footer>nav>a{
     font-size: 12px;
     padding: 6px;
 }
-@media only screen and (max-width: 900px) {
-    .nav1{
+
+
+.xxx{
+    border: 1px solid red;
+    background-color: red;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .nav1, .pbutton{
         display: none;
     }
+    
     .mobile-menu-icon{
         display: block;
     }
    }
+
 @media only screen and (max-width: 800px){
-    .div4{
+    .div4, .white{
         display: none;
     }
-    .div4{
+    .div4, .white{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -241,25 +254,11 @@ footer>nav>a{
         align-items: center;
         padding-bottom: 60px; 
     }
-}
-@media only screen and (max-width: 800px){
-    .white{
-        display: none;
-    }
-    .white{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;   
+    .white{  
         padding: 40px;
     }
 }
-@media only screen and (max-width: 800px){
-    .pbutton{
-        display: none;
-    }
-}
+
 
 
 
