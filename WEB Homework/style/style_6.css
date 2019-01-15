@@ -222,8 +222,7 @@ footer>nav>a{
     font-size: 12px;
     padding: 6px;
 }
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px){
     .nav1, .pbutton{
         display: none;
     }
@@ -237,7 +236,7 @@ footer>nav>a{
     .mobile-menu-icon{
         display: block;
     }
-   }
+}
 @media only screen and (max-width: 1000px){
     .div4, .white{
         display: none;
