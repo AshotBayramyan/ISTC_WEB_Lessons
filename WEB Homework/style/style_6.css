@@ -32,7 +32,9 @@ img{
 nav{
     display: flex;
 }
+
 .mobile-menu-icon{
+    display: none;
     color: #f2f2f0; 
     padding: 20px 20px;
     line-height: 60px;
@@ -226,14 +228,7 @@ footer>nav>a{
     .mobile-menu-icon{
         display: block;
     }
-   
    }
-@media only screen and (min-width: 900px){
-    .mobile-menu-icon{
-        display: none;
-    }
-   }
-
 @media only screen and (max-width: 800px){
     .div4{
         display: none;
@@ -264,10 +259,7 @@ footer>nav>a{
     .pbutton{
         display: none;
     }
-    
-
 }
-
 
 
 
