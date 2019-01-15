@@ -125,6 +125,9 @@ button{
     padding: 32px;
     margin: 20px;
 }
+.div4>div>p{
+    width: 220px;
+}
 hr{
     width: 75px;
     height: 3px;
@@ -154,8 +157,12 @@ h2{
     color: #404040;
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 150px;
 }
+.white>div>h4, .white>div>p{
+    width: 300px;
+}
+
 .lastdiv{
     display: flex;
     flex-direction: column;
@@ -257,6 +264,7 @@ footer>nav>a{
     .pbutton{
         display: none;
     }
+    
 
 }
 
