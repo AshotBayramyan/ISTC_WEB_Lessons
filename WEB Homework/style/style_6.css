@@ -222,6 +222,7 @@ footer>nav>a{
     font-size: 12px;
     padding: 6px;
 }
+
 @media only screen and (max-width: 1000px) {
     .nav1, .pbutton{
         display: none;
@@ -229,6 +230,9 @@ footer>nav>a{
     nav{
         flex-direction: column;
         
+    }
+    .foot{
+        flex-direction: row;
     }
     .mobile-menu-icon{
         display: block;
