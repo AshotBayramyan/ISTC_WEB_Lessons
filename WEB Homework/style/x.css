@@ -1,12 +1,18 @@
 div{
     height: 100px;
     width: 100px;
-    border-radius: 50%
-    
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    transition: all .6s;
 }
 #red_ball{
     background-color: red;
+    top: 50px;
 }
 #black_ball{
     background-color: black;
+    top: 100px;
+}
+
 }
