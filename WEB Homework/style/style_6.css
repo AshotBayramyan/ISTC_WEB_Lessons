@@ -222,6 +222,9 @@ footer>nav>a{
     font-size: 12px;
     padding: 6px;
 }
+#dropdown{
+    background-color: red;
+}
 @media only screen and (max-width: 1000px){
     .nav1, .pbutton{
         display: none;
