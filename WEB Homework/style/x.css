@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%
+    
+}
+#red_ball{
+    background-color: red;
+}
+#black_ball{
+    background-color: black;
+}

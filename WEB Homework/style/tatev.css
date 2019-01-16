@@ -1,0 +1,46 @@
+#klor{
+ width:100px;
+ height:100px;
+ border-radius:50%;
+ background:red;
+ position:relative;
+
+}
+button{
+ margin-top:20px;
+ width:100px;
+ height:40px;
+ box-shadow:1px 1px 1px 0 black;
+ border:none;
+ border-radius:5px;
+ padding:20px;
+ background:purple;
+ cursor:pointer;
+
+}
+
+.mystyle{
+
+animation: example 3s  ;
+
+}
+.mystyle2{
+
+animation: example2 3s  ;
+
+}
+
+@keyframes example {
+ from {background-color: red;
+ left:0;
+ }
+ to {background-color: yellow;
+ left:95%}
+}
+@keyframes example2 {
+ from {background-color: red;
+ left:0;
+ }
+ to {background-color: yellow;
+ left:95%}
+}
