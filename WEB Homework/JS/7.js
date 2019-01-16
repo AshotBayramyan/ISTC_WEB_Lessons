@@ -1,6 +1,15 @@
+var x = document.getElementById("dropdown");
 function myFunction() {
-    document.getElementById("dropdown").classList.toggle("show");
+    if (x.className==="nav1") {
+      x.className="";
+    } else {
+      x.className="nav1";
+    }
+    
   }
+
+
+
 //   window.onclick = function(event) {
 //     if (!event.target.matches('.dropbtn')) {
 //       var dropdowns = document.getElementsByClassName("dropdown-content");

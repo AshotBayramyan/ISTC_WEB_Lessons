@@ -31,6 +31,7 @@ img{
 }
 nav{
     display: flex;
+    
 }
 
 .mobile-menu-icon{
@@ -221,28 +222,22 @@ footer>nav>a{
     font-size: 12px;
     padding: 6px;
 }
-
-
-.xxx{
-    border: 1px solid red;
-    background-color: red;
-}
-
-
-
-
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px){
     .nav1, .pbutton{
         display: none;
     }
-    
+    nav{
+        flex-direction: column;
+        
+    }
+    .foot{
+        flex-direction: row;
+    }
     .mobile-menu-icon{
         display: block;
     }
-   }
-
-@media only screen and (max-width: 800px){
+}
+@media only screen and (max-width: 1000px){
     .div4, .white{
         display: none;
     }
