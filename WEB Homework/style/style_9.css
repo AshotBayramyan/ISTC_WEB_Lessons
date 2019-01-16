@@ -2,6 +2,15 @@ fieldset{
     height: 170px;
     width:  150px;
     border-radius: 5px;
+    margin: auto;
+}
+p{
+    height: 20px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 10px;
 }
 input{
     margin: 10px;
