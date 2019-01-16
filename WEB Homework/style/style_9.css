@@ -1,0 +1,12 @@
+fieldset{
+    height: 170px;
+    width:  150px;
+    border-radius: 5px;
+}
+input{
+    margin: 10px;
+    border-radius: 5px;
+}
+.inp{
+    padding: 5px;
+}
