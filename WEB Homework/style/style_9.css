@@ -19,3 +19,21 @@ input{
 .inp{
     padding: 5px;
 }
+#result{
+    max-width: 300px;
+    height: auto;
+    position:absolute;
+    margin: 15px;
+    background-color:#56B1CC;
+    text-align: center;
+    border-radius: 15%;
+    transition: 3s;
+  }
+ #result:hover{
+    max-width: 300px; max-width: 300px;
+    transform: rotate(7deg);
+    height: 500px;
+    transition: width 2s linear 1s;
+    background-color: #CB6054;
+  
+ }
