@@ -21,13 +21,20 @@ header{
     padding-left: 25px;
     justify-content: space-between;
 }
-.logonav{
+.navigation{
     display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    margin: 20px;
+
+    background-image: url(../../images/famowhite.png);
+    background-size: cover;
+    
 }
 img{
-    margin: 20px 30px 20px 0px;
-    display: flex;
-    height: 55px;
+    
 }
 nav{
     display: flex;
@@ -101,14 +108,6 @@ button{
     text-align: center;  
     padding-bottom: 60px; 
 }
-/* .div41{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;  
-    padding-bottom: 60px; 
-} */
 .div4>div{
     color: #404040;
     display: flex;
