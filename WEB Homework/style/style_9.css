@@ -1,12 +1,12 @@
 fieldset{
-    height: 170px;
+    height: auto;
     width:  150px;
     border-radius: 5px;
     margin: auto;
 }
-p{
-    height: 20px;
-    width: 300px;
+p, button{
+    height: auto;
+    width: 200px;
     border: 1px solid gray;
     border-radius: 5px;
     margin: 15px auto;
